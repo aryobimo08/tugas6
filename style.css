@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    text-align: center;
+}
+
+#list-container {
+    text-align: left; /* Mengubah align text menjadi kiri */
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between; /* Menambahkan jarak horizontal antara input dan checkbox */
+    align-items: center;
+    margin: 5px 0; /* Tambahkan margin atas dan bawah */
+}
+
+.delete-button {
+    margin-left: 15px;
+}
+
+#input_form, #tombol_form {
+    margin: 5px; /* Menambahkan margin atas dan bawah untuk input dan tombol */
+}
